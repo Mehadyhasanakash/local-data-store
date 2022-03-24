@@ -3,7 +3,12 @@
     grid-template-columns: 4fr 1fr;
 
 }
-
+.show-Components-client-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 150px;
+    padding: 100px;
+}
 
 .calculation{
     background-color: bisque;

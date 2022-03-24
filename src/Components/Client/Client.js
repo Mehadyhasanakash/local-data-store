@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import ShowClient from '../ShowClient/ShowClient';
 import './Client.css'
 
 const Client = () => {
@@ -11,10 +12,12 @@ const Client = () => {
     } ,[])
     return (
         <div className='client-container'>
-            <div>
-                <h1>show client</h1>
+            <div className='show-Components-client-container'>
                 {
-                    clients.map(client => console.log(client))
+                    clients.map(client => <ShowClient 
+                        client={client}
+                        key={client.id}
+                        ></ShowClient>)
                 }
             </div>
 
