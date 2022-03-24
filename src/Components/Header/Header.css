@@ -1,0 +1,21 @@
+.header-container{
+    background-color: rgb(2, 42, 68);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 144px;
+    
+    
+}
+
+.list-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.list-container a:hover{
+    color: rgb(248, 182, 28);
+}
+

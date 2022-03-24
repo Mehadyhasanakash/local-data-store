@@ -1,0 +1,13 @@
+.client-container{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+
+}
+
+
+.calculation{
+    background-color: bisque;
+    height: 100vh;
+    position: sticky;
+    top: 0%;
+}
